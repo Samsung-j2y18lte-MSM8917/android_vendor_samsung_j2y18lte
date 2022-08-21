@@ -887,4 +887,5 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     izat.xt.srv \
     qcrilhook \
+    rild \
     libtime_genoff
