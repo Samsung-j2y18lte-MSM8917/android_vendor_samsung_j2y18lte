@@ -1111,7 +1111,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/android.hardware.sensors.leonel.artuzi.j4core@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors.leonel.artuzi.j4core@1.0.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
-        vendor/samsung/j2y18lte/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libactuator_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
