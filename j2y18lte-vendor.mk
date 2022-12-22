@@ -1549,7 +1549,33 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
-    vendor/samsung/j2y18lte/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libexifa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexifa.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libjpega.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpega.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libloommapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloommapper.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libOpenCv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libpalmMobileDetectorFull.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpalmMobileDetectorFull.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libsecimaging.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecimaging.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libsecjpeginterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecjpeginterface.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libSEF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libsomp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomp.so \
+    vendor/samsung/j2y18lte/proprietary/lib/lib_apmnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib_apmnative.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_SYSTEM)/libarcsoft_panorama_burstcapture.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libAstcEnc.so:$(TARGET_COPY_OUT_SYSTEM)/libAstcEnc.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libcameraservice_cameramodule.so:$(TARGET_COPY_OUT_SYSTEM)/libcameraservice_cameramodule.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/libdatasource.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libdmcFaceEngine.so:$(TARGET_COPY_OUT_SYSTEM)/libdmcFaceEngine.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libedmnativehelper.so:$(TARGET_COPY_OUT_SYSTEM)/libedmnativehelper.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libquramimagecodec.so:$(TARGET_COPY_OUT_SYSTEM)/libquramimagecodec.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libquramresize.so:$(TARGET_COPY_OUT_SYSTEM)/libquramresize.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libsaiv_BeautySolution.so:$(TARGET_COPY_OUT_SYSTEM)/libsaiv_BeautySolution.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libsaiv_FacePreProcessing.so:$(TARGET_COPY_OUT_SYSTEM)/libsaiv_FacePreProcessing.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libsamsungeffect.so:$(TARGET_COPY_OUT_SYSTEM)/libsamsungeffect.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libsccore.so:$(TARGET_COPY_OUT_SYSTEM)/libsccore.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libseccameracore.so:$(TARGET_COPY_OUT_SYSTEM)/libseccameracore.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libSelfieToneCurveCorrection.so:$(TARGET_COPY_OUT_SYSTEM)/libSelfieToneCurveCorrection.so \
+    vendor/samsung/j2y18lte/proprietary/lib/lib_src_night_shot.so:$(TARGET_COPY_OUT_SYSTEM)/lib_src_night_shot.so \
+    vendor/samsung/j2y18lte/proprietary/lib/libsupershot.so:$(TARGET_COPY_OUT_SYSTEM)/libsupershot.so
 
 vintf_fragments += \
     vendor/samsung/j2y18lte/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
