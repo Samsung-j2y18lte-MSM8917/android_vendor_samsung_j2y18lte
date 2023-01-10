@@ -461,7 +461,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/samsung/j2y18lte/proprietary/vendor/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpdsp.so \
     vendor/samsung/j2y18lte/proprietary/vendor/lib/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpfrmwk.so \
@@ -1575,6 +1574,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j2y18lte/proprietary/lib/libseccameracore.so:$(TARGET_COPY_OUT_SYSTEM)/libseccameracore.so \
     vendor/samsung/j2y18lte/proprietary/lib/libSelfieToneCurveCorrection.so:$(TARGET_COPY_OUT_SYSTEM)/libSelfieToneCurveCorrection.so \
     vendor/samsung/j2y18lte/proprietary/lib/lib_src_night_shot.so:$(TARGET_COPY_OUT_SYSTEM)/lib_src_night_shot.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libutils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils-v30.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libmediacodecservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediacodecservice.so \
+    vendor/samsung/j2y18lte/proprietary/vendor/lib/libsemcamera_jni.so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemcamera_jni.so.so \
     vendor/samsung/j2y18lte/proprietary/lib/libsupershot.so:$(TARGET_COPY_OUT_SYSTEM)/libsupershot.so
 
 vintf_fragments += \
